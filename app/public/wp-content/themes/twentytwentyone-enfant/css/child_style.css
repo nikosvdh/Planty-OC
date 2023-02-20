@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+/* Import de la font Syne */
+
+body * {
+    font-family: 'syne', sans-serif;
+    font-weight: 400;
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* HEADER */
+
+.header
+{
+    display: flex;
+    background-color: #ffffff;
+}
+
+#logo
+{
+    margin-left: 30px;
+    height: 80px;
+    display: flex;
+}
+
+#logo .custom-logo
+{
+    height: 19px;
+    width: 210px;
+    object-fit: cover;
+}
+
+nav{
+    margin-right: 0;
+}
+
+nav a 
+{
+    outline: none;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-item a
+{
+    height: 80px;
+    width: 200px;
+    background: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* commander */
+li.menu-item-32 a 
+{
+    color:#FFFFFF;
+    width: 236px;
+    height: 80px;
+    background:#DC9F96;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li.menu-item-32 span
+{
+    font-weight: 700 !important;
+}
+
+li.menu-item-32 a:hover 
+{
+    background-color: #C02E44;
+}
+
+/* nous rencontrer */
+li.menu-item-33 span:hover 
+{
+    font-weight: 500;
+}
+
+/* admin */
+li.menu-item a:hover 
+{
+    font-weight: 500;
+}
+
+.margin
+{
+margin: auto;
+}
+
+
+/* FOOTER */
+#footer 
+{
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
