@@ -1,15 +1,15 @@
- </main>
- </div>
- <footer id="footer">
+</main>
+</div>
+<footer id="footer">
 
-     <nav class="margin">
-         <?php
+    <nav class="margin">
+        <?php
  wp_nav_menu ( array ('theme_location' => 'footer-menu') ); ?>
-     </nav>
+    </nav>
 
- </footer>
- </div>
- <?php wp_footer(); ?>
- </body>
+</footer>
+</div>
+<?php wp_footer(); ?>
+</body>
 
- </html>
+</html>

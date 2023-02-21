@@ -96,7 +96,64 @@ li.menu-item a:hover
 
 .margin
 {
-margin: auto;
+    margin: auto;
+}
+
+.page .entry-title 
+{
+    display: none;
+}
+
+.page .entry-header {
+    display: none;
+}
+
+.wpcf7-form-control
+{
+    width: 100%;
+    height: 237px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: none !important;
+    border-radius: 7px !important;
+    background: #FFFFFF!important;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04)!important;
+}
+
+.wpcf7-submit
+{
+    width: 198px;
+    height: 55px;
+    background: #E0B9B4 !important;
+    color: #FFFFFF;
+    border: none !important;
+    border-radius: 5px !important;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.flower-title
+{
+    position: absolute;
+    right: 1215px;
+    top: 180px;
+    width: 145px;
+}
+
+.flower-team
+{
+    position: absolute;
+    top: 620px;
+    left: 1100px;
+}
+
+.flower-contact-form
+{
+    position: absolute;
+    right: 890px;
+    top: 1665px;
+    width: 145px;
+    height: 133px;
 }
 
 
