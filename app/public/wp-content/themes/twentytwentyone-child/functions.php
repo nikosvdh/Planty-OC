@@ -15,6 +15,7 @@ function register_my_menus() {
 
 add_theme_support( 'custom-logo' );
 
+/* MENU ADMIN */
 add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
 function add_extra_item_to_nav_menu( $items, $args ) {
     if (is_user_logged_in() && $args->theme_location == 'header-menu'  ) {
@@ -25,7 +26,7 @@ function add_extra_item_to_nav_menu( $items, $args ) {
           $items = substr($items, $item_pos);
       }
       $items_array[] = $items;
-      array_splice($items_array, 1, 0, '<li class="menu-item"><a href="/Planty/wp-admin/">Admin</a></li>'); // insertion du lien en seconde position
+      array_splice($items_array, 1, 0, '<li class="menu-item"><a href="/Planty/wp-admin/">Admin</a></li>'); // insertion du lien en 2e position
 
       $items = implode('', $items_array);
       }
