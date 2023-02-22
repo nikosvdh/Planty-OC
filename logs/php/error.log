@@ -1,1 +1,2 @@
 [13-Feb-2023 14:00:40 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/nicolasvandenheede/Local Sites/planty/app/public/wp-includes/class-wp-customize-widgets.php on line 900
+[21-Feb-2023 08:47:24 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_privacy_delete_old_export_files. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
