@@ -264,9 +264,9 @@ h1
     color: #FFFFFF;
     border: none !important;
     border-radius: 5px !important;
-    margin-top: 20px;
+    margin-top: 0px !important;
     font-size: 15px !important;
-    display: grid;
+    margin-left: 27%;
 }
 
 .wpcf7-submit:hover 
@@ -279,6 +279,12 @@ h1
 input
 {
     height: 4em !important;
+}
+
+.wp-image-76 
+{
+    margin-top: 30px !important;
+
 }
 
 .flower-title
@@ -300,10 +306,10 @@ input
 .flower-contact-form
 {
     position: absolute;
-    right: 890px;
-    top: 1665px;
-    width: 145px;
-    height: 133px;
+    right: 870px;
+    top: 1585px;
+    width: 185px;
+    height: 178px;
 }
 
 /* FOOTER */
@@ -313,7 +319,6 @@ input
     background-color: #ffffff;
     display: flex !important;
     justify-content: center !important;
-    height: 60px;
     margin-right: 50px;
 }
 
