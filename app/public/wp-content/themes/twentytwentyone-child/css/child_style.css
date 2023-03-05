@@ -39,7 +39,6 @@ nav a
     outline: none;
     text-decoration: none;
     color: black;
-    padding: 20px;
 }
 
 nav ul
@@ -320,7 +319,13 @@ input
     display: flex !important;
     justify-content: center !important;
     margin-right: 50px;
+    margin-top: -30px !important;
 }
+
+footer nav a
+{
+    height: 60px !important;
+} 
 
 .entry-footer
 {
