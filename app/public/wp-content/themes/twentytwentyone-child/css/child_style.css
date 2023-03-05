@@ -18,15 +18,15 @@ body * {
 
 #logo
 {
-    margin-left: 30px;
+    margin-left: 45px;
     height: 80px;
     display: flex;
 }
 
 #logo .custom-logo
 {
-    height: 19px;
-    width: 210px;
+    height: 40px;
+    width: 202px;
     object-fit: cover;
 }
 
@@ -75,89 +75,226 @@ li.menu-item-32 a
 li.menu-item-32 span
 {
     font-weight: 700 !important;
+    font-size: 16px;
 }
 
 li.menu-item-32 a:hover 
 {
     background-color: #C02E44;
+    font-weight: 700 !important;
+    font-size: 16px;
 }
 
 /* nous rencontrer */
 li.menu-item-33 span:hover 
 {
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 13px;
 }
+
+.entry-content
+{
+   background : #EDE2DA;
+   margin-top: 0px !important;
+}
+
+.who-is-planty-container 
+{
+    flex-basis: 50% !important;
+    margin-bottom: 75px !important;
+}
+
+.flower-title-container
+{
+    flex-basis: 25% !important;
+}
+
+.third-column-container
+{
+    flex-basis: 25% !important;
+}
+
+
+.wp-container-4
+{
+    border-bottom-right-radius: 400px 80px;
+    border-bottom-left-radius: 400px 80px;
+    background : #EDE2DA;
+}
+
+.wp-block-group {
+    background-color: #FFFFFF;
+}
+
+h2 
+{
+    font-family: 'syne', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 30px !important;
+}
+
+.h2-team 
+{
+    margin-top: 30px !important;
+    margin-bottom: 20px !important;
+}
+
+.team-column-container
+{
+    flex-basis: 20% !important;
+}
+
+.team-megane-container
+{
+    flex-basis: 23% !important;
+}
+
+.team-brooke-container
+{
+    flex-basis: 23% !important;
+}
+
+.team-sylvie-container
+{
+    flex-basis: 23% !important;
+}
+
+.team-flower-container
+{
+    flex-basis: 20% !important;
+}
+
+.wp-image-48 {
+    height: 167px !important;
+    width: 167px !important;
+}
+
+.wp-image-49 {
+    height: 167px !important;
+    width: 167px !important;
+}
+
+.wp-image-50 {
+    height: 167px !important;
+    width: 167px !important;
+}
+
+.wp-element-caption
+{
+    font-weight: 700 !important;
+    font-size: 20px !important;
+}
+
+.job
+{
+    margin-top: -30px !important;
+}
+
+.team-container
+{
+    margin-bottom: 75px !important;
+
+}
+
+.contact-us
+{
+    margin-top: 65px !important;
+    margin-bottom: 47px !important;
+}
+ 
 
 /* admin */
 li.menu-item a:hover 
 {
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 13px;
 }
+
 
 .margin
 {
     margin: auto;
 }
 
+
+/*
 .page .entry-title 
 {
     display: none;
 }
+*/
 
-.page .entry-header 
+/* cacher titre et bordure */
+.page .entry-header  
 {
     display: none;
 }
+
 
 h1
 {
     color : #D2776A;
     text-transform: uppercase;
-    margin-top: 100px;
     font-family: 'Syne' !important;
     font-weight: 800 !important;
     line-height: 46px !important;
     font-size: 38px !important;
-    margin-top: 106px !important;
+    margin-top: 185px !important;
+    margin-bottom: -7px !important;
 }
 
 .wpcf7-form-control
 {
     width: 100%;
     height: 237px;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;
     border: none !important;
     border-radius: 7px !important;
     background: #FFFFFF!important;
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04)!important;
 }
 
+
 .wpcf7-submit
 {
-    width: 198px;
-    height: 55px;
+    width: 198px !important;
+    height: 55px !important;
     background: #E0B9B4 !important;
     color: #FFFFFF;
     border: none !important;
     border-radius: 5px !important;
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 15px !important;
+    display: grid;
+}
+
+.wpcf7-submit:hover 
+{
+    background-color: #C02E44 !important;
+    color: #FFFFFF !important;
+}
+
+
+input
+{
+    height: 4em !important;
 }
 
 .flower-title
 {
     position: absolute;
-    right: 1200px;
-    top: 170px;
-    width: 200px;
+    right: 1165px;
+    top: 185px;
+    width: 190px;
 }
 
 .flower-team
 {
     position: absolute;
-    top: 620px;
-    left: 1100px;
+    top: 800px;
+    left: 1260px;
+    width: 190px;
 }
 
 .flower-contact-form
@@ -169,19 +306,21 @@ h1
     height: 133px;
 }
 
-
 /* FOOTER */
 #footer 
 {
-    padding: 20px;
-    text-align: center;
+    text-align: center !important;
     background-color: #ffffff;
-    display: flex;
-    justify-content: center;
+    display: flex !important;
+    justify-content: center !important;
+    height: 60px;
+    margin-right: 50px;
 }
 
-/*
-    background-image: url("../images/Group_8.png") !important;
-*/
+.entry-footer
+{
+    display: none !important;
+}
+
 
 
