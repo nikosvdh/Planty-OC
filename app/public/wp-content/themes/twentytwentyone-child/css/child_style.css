@@ -58,6 +58,104 @@ nav ul
     justify-content: center;
 }
 
+
+/* home */
+
+.h1-home 
+{
+    color: #3B8E46;
+    text-transform: uppercase;
+    font-family: 'Syne' !important;
+    font-weight: 800 !important;
+    line-height: 46px !important;
+    font-size: 38px !important;
+    margin-top: 105px !important;
+}
+
+.flower-bottle-left 
+{
+    position: absolute;
+    top: 485px;
+    right: 735px;
+    width: 400px;
+    z-index: 1 !important;
+}
+
+.flower-bottle-right
+{
+    position: absolute;
+    top: 485px;
+    left: 720px;
+    width: 400px; 
+    z-index: 1 !important;
+}
+
+.bottle 
+{   position: relative;
+    z-index: 2 !important;
+}
+
+.bottle-home
+{
+    border-bottom-right-radius:200px 50px !important;
+    border-bottom-left-radius:200px 50px !important;
+    background-color: red !important;
+}
+
+.h2-home
+{
+    color: #3B8E46;
+    background-color: #FFFFFF;
+    margin-top: 72px !important;
+}
+
+.p-h2-home 
+{
+    margin-bottom: 72px !important;
+    padding-top: 10px !important;
+}
+
+.h3-home
+{
+    color : #D2776A;
+    text-transform: uppercase;
+    font-family: 'Syne' !important;
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 36px !important;
+    margin-top: 57px !important;
+}
+
+.p-h3-home 
+{
+    margin-bottom: 45px !important;
+    margin-top: -27px !important;
+}
+  
+.fruit-column
+{
+    width: 55% !important;
+    background-color: #EDE2DA !important;
+}
+
+.legend
+{
+    color : #ffffff !important;
+    text-transform: uppercase;
+    font-weight: 800 !important;
+    font-size: 48px !important;
+}
+
+.legend2 
+{
+    color : #ffffff !important;
+    text-transform: uppercase;
+    font-weight: 800 !important;
+    font-size: 48px !important;
+}
+
+
+
 /* commander */
 li.menu-item-32 a 
 {
@@ -230,7 +328,7 @@ li.menu-item a:hover
 }
 
 
-h1
+.h1-meet-us
 {
     color : #D2776A;
     text-transform: uppercase;
