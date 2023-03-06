@@ -99,7 +99,7 @@ nav ul
 {
     border-bottom-right-radius:400px 50px !important;
     border-bottom-left-radius:400px 50px !important;
-    background-color: red !important;
+    background-color: #EDE2DA !important;
 }
 
 .bottle-flowers
@@ -109,17 +109,22 @@ nav ul
     background : #EDE2DA;
 }
 
+.energy-container
+{
+    background-color: #FFFFFF;
+}
+
 .h2-home
 {
     color: #3B8E46;
-    background-color: #FFFFFF;
-    margin-top: 72px !important;
+    margin-top: 43px !important;
 }
 
 .p-h2-home 
 {
-    margin-bottom: 72px !important;
-    padding-top: 10px !important;
+    margin-bottom: 82px !important;
+    padding-top: 15px !important;
+    line-height: 24px;
 }
 
 .h3-home
@@ -147,8 +152,8 @@ nav ul
 
 .fruit-image
 {
-    width: 393px; /* 465 */
-    height: 262px; /* 300 */
+    width: 393px;
+    height: 262px;
 }
 
 .legend
@@ -160,10 +165,28 @@ nav ul
     line-height: 58px;
 }
 
-.wp-block-cover__inner-container
+.fraise
 {
-    margin: 0px !important;
-    padding: 0px !important;
+    margin-left: -30px !important;
+    margin-right: -30px !important;
+}
+
+.pamplemousse
+{
+    margin-left: -35px !important;
+    margin-right: -35px !important;
+}
+
+.citron
+{
+    margin-left: -35px !important;
+    margin-right: -35px !important;
+}
+
+.fruits-row
+{
+    margin-top: 40px !important;
+    margin-bottom: 17px !important;
 }
 
 .button a
@@ -184,11 +207,12 @@ nav ul
     color: #FFFFFF !important;
 }
 
-.wp-container-14 
+.wp-container-15 
 {
-    border-bottom-right-radius: 400px 80px;
-    border-bottom-left-radius: 400px 80px;
-    background : red;
+    border-bottom-right-radius: 400px 30px;
+    border-bottom-left-radius: 400px 30px;
+    background: #EDE2DA;
+    padding-bottom: 47px !important;
 }
 
 .h4-home
@@ -211,11 +235,6 @@ nav ul
 {
     line-height: 19.2px;
     font-size: 16px;
-}
-
-.image-vero
- {
-    background-image: url('/wp-content/themes/twentytwentyone-child/images/Group_8.png');
 }
 
 .bottles 
