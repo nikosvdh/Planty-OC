@@ -97,9 +97,16 @@ nav ul
 
 .bottle-home
 {
-    border-bottom-right-radius:200px 50px !important;
-    border-bottom-left-radius:200px 50px !important;
+    border-bottom-right-radius:400px 50px !important;
+    border-bottom-left-radius:400px 50px !important;
     background-color: red !important;
+}
+
+.bottle-flowers
+{
+    border-bottom-right-radius: 400px 50px;
+    border-bottom-left-radius: 400px 50px;
+    background : #EDE2DA;
 }
 
 .h2-home
@@ -134,8 +141,14 @@ nav ul
   
 .fruit-column
 {
-    width: 55% !important;
     background-color: #EDE2DA !important;
+    width: 54%;
+}
+
+.fruit-image
+{
+    width: 393px; /* 465 */
+    height: 262px; /* 300 */
 }
 
 .legend
@@ -144,17 +157,72 @@ nav ul
     text-transform: uppercase;
     font-weight: 800 !important;
     font-size: 48px !important;
+    line-height: 58px;
 }
 
-.legend2 
+.wp-block-cover__inner-container
 {
-    color : #ffffff !important;
-    text-transform: uppercase;
-    font-weight: 800 !important;
-    font-size: 48px !important;
+    margin: 0px !important;
+    padding: 0px !important;
 }
 
+.button a
+{
+    width: 198px !important;
+    height: 55px !important;
+    background: #E0B9B4 !important;
+    border: none !important;
+    border-radius: 5px !important;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+    font-size: 15px !important;
+}
 
+.wpcf7-submit:hover
+{
+    background-color: #C02E44 !important;
+    color: #FFFFFF !important;
+}
+
+.wp-container-14 
+{
+    border-bottom-right-radius: 400px 80px;
+    border-bottom-left-radius: 400px 80px;
+    background : red;
+}
+
+.h4-home
+{
+    color: #3B8E46;
+    text-transform: uppercase;
+    font-family: 'Syne' !important;
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 36px !important;
+    margin-top: 115px !important;
+}
+
+.name
+{
+    color: #3B8E46;
+}
+
+.p-name
+{
+    line-height: 19.2px;
+    font-size: 16px;
+}
+
+.image-vero
+ {
+    background-image: url('/wp-content/themes/twentytwentyone-child/images/Group_8.png');
+}
+
+.bottles 
+{
+    background-color: #FFFFFF;
+    margin-top: 80px !important;
+}
 
 /* commander */
 li.menu-item-32 a 
@@ -198,7 +266,7 @@ li.menu-item-33 span:hover
 .who-is-planty-container 
 {
     flex-basis: 50% !important;
-    margin-bottom: 75px !important;
+    margin-bottom: 79px !important;
 }
 
 .flower-title-container
@@ -211,8 +279,12 @@ li.menu-item-33 span:hover
     flex-basis: 25% !important;
 }
 
+.p-meet-us 
+{
+    line-height: 24px;
+}
 
-.wp-container-4
+.wp-container-4 
 {
     border-bottom-right-radius: 400px 80px;
     border-bottom-left-radius: 400px 80px;
@@ -232,8 +304,8 @@ h2
 
 .h2-team 
 {
-    margin-top: 30px !important;
-    margin-bottom: 20px !important;
+    margin-top: 33px !important;
+    margin-bottom: 17px !important;
 }
 
 .team-column-container
@@ -395,9 +467,9 @@ input
 .flower-team
 {
     position: absolute;
-    top: 800px;
-    left: 1260px;
-    width: 190px;
+    top: 765px;
+    left: 1255px;
+    width: 200px;
 }
 
 .flower-contact-form
