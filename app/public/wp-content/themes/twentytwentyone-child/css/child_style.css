@@ -100,6 +100,7 @@ nav ul
     border-bottom-right-radius:400px 50px !important;
     border-bottom-left-radius:400px 50px !important;
     background-color: #EDE2DA !important;
+    box-shadow: 0px 10px 0px 1px #e0d8d2;
 }
 
 .bottle-flowers
@@ -107,6 +108,7 @@ nav ul
     border-bottom-right-radius: 400px 50px;
     border-bottom-left-radius: 400px 50px;
     background : #EDE2DA;
+    margin-bottom: 30px !important;
 }
 
 .energy-container
@@ -117,7 +119,7 @@ nav ul
 .h2-home
 {
     color: #3B8E46;
-    margin-top: 43px !important;
+    margin-top: 50px !important;
 }
 
 .p-h2-home 
