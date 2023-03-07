@@ -243,7 +243,7 @@ nav ul
     margin-top: 80px !important;
 }
 
-/* commander */
+/* menu commander */
 li.menu-item-32 a 
 {
     color:#FFFFFF;
@@ -498,6 +498,41 @@ input
     top: 1585px;
     width: 185px;
     height: 178px;
+}
+
+
+/* PAGE COMMANDER */
+
+.h1-order
+{
+    color : #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Syne' !important;
+    font-weight: 800 !important;
+    line-height: 46px !important;
+    font-size: 38px !important;
+    background-color: #3B8E46;
+    margin-top: 69px !important;
+    margin-bottom: 69px !important;
+}
+
+.separator
+{
+    border: 1px solid #FFFFFF !important;
+    width: 60% !important;
+}
+
+.background-container
+{
+    background-color: #3B8E46;
+}
+
+.h2-order
+{
+    width: 60% !important;
+    color: #FFFFFF;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
 }
 
 /* FOOTER */
