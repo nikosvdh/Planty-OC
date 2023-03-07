@@ -226,6 +226,30 @@ nav ul
     font-size: 30px !important;
     line-height: 36px !important;
     margin-top: 115px !important;
+    margin-bottom: 85px !important;
+}
+
+.picture-container
+{
+    flex-basis: 35% !important;
+    padding-left: 13px ;
+}
+
+.text-container
+{
+    flex-basis: 58% !important;
+    padding-top: 5px;
+    padding-left: 0px ;
+}
+
+.fatiha-vero-marc
+{
+    width: 76% !important;
+}
+
+.picture 
+{
+    width: 125px;
 }
 
 .name
