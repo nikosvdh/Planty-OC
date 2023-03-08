@@ -543,8 +543,7 @@ input
 }
 
 .separator
-{
-    border: 1px solid #FFFFFF !important;
+{   border: 0.5px solid #FFFFFF !important;
     width: 60% !important;
 }
 
@@ -564,7 +563,8 @@ input
 
 .fruit-image-order
 {
-    width: 195px;
+    width: 180px;
+    height: auto !important;
 }
 
 .legend-order
@@ -638,14 +638,16 @@ input
    width: 60% !important;
    background: #3B8E46 !important;
    max-width: none !important;
+   padding-bottom: 45px;
 }
 
 .two-columns 
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 30px;
+    column-gap: 95px;
     color: #FFFFFF;
+    margin-bottom: 30px;
 }
 
 .h2-form-order
@@ -653,6 +655,25 @@ input
     background-color: #3B8E46;
 }
 
+.separator-rotation
+{
+    transform: rotate(90deg); 
+    position: absolute;
+    left: 530px;
+    top : 890px;
+    border: 0.5px solid #FFFFFF !important;
+    width: 30% !important;
+}
+
+.info
+{
+    margin-left: -20px !important;
+}
+
+.delivery
+{
+    margin-left: 6px !important;
+}
 
 /* FOOTER */
 #footer 
