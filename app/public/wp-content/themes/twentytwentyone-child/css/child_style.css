@@ -466,7 +466,7 @@ li.menu-item a:hover
     border: none !important;
     border-radius: 7px !important;
     background: #FFFFFF!important;
-    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04)!important;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04) !important;
 }
 
 
@@ -480,7 +480,8 @@ li.menu-item a:hover
     border-radius: 5px !important;
     margin-top: 0px !important;
     font-size: 15px !important;
-    margin-left: 27%;
+    display: block;
+    margin: 0 auto;
 }
 
 .wpcf7-submit:hover 
@@ -537,7 +538,6 @@ input
     font-weight: 800 !important;
     line-height: 46px !important;
     font-size: 38px !important;
-    background-color: #3B8E46;
     margin-top: 69px !important;
     margin-bottom: 69px !important;
 }
@@ -559,6 +559,7 @@ input
     color: #FFFFFF;
     margin-top: 40px !important;
     margin-bottom: 40px !important;
+    background-color: #3B8E46;
 }
 
 .fruit-image-order
@@ -577,6 +578,11 @@ input
 .fruit-column-order
 {
     width: 80% !important;
+}
+
+.fruits
+{
+    background-color: #3B8E46;
 }
 
 .fraise-legend-order
@@ -607,6 +613,46 @@ input
     margin-left: -40px !important;
     margin-right: -40px !important;
 }
+
+.fruits-separator
+{
+    background-color: #3B8E46;
+}
+
+.form-title
+{
+    color: #FFFFFF;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px; 
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.wp-block-contact-form-7-contact-form-selector
+{
+   width: 60% !important;
+   background: #3B8E46 !important;
+   max-width: none !important;
+}
+
+.two-columns 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    color: #FFFFFF;
+}
+
+.h2-form-order
+{
+    background-color: #3B8E46;
+}
+
 
 /* FOOTER */
 #footer 
