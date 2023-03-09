@@ -544,7 +544,7 @@ input
 
 .separator
 {   border: 0.5px solid #FFFFFF !important;
-    width: 60% !important;
+    width: 57% !important;
 }
 
 .background-container
@@ -554,7 +554,7 @@ input
 
 .h2-order
 {
-    width: 60% !important;
+    width: 55% !important;
     color: #FFFFFF;
     margin-top: 40px !important;
     margin-bottom: 7px !important;
@@ -582,7 +582,7 @@ input
 
 .fruits-container-order
 {
-    width: 60% !important;
+    width: 57% !important;
 }
 
 
@@ -636,7 +636,7 @@ input
 
 .wp-block-contact-form-7-contact-form-selector
 {
-   width: 60% !important;
+   width: 57% !important;
    background: #3B8E46 !important;
    max-width: none !important;
    padding-bottom: 45px;
@@ -661,7 +661,7 @@ input
     transform: rotate(90deg); 
     position: absolute;
     left: 530px;
-    top : 905px;
+    top : 900px;
     border: 0.5px solid #FFFFFF !important;
     width: 30% !important;
 }
@@ -683,13 +683,13 @@ input
     justify-content: center;
     align-items: center;
     height: 56px;
-    margin-top: -10px;
+    margin-top: -15px;
     margin-bottom: -20px;
 }
 
 .input-quantity input
 {
-    width: 56px;
+    width: 53px;
     height: 56px !important;
     background: #FFFFFF;
     border-radius: 5px 0px 0px 5px;
@@ -698,9 +698,10 @@ input
     font-weight: 400;
     font-family:'Inter';
     font-size: 16px;
-    line-height: 19.36px;
     text-align: center;
     z-index: 2 !important;
+    margin-top: 15px !important;
+    margin-left: 12% !important;
 }
 
 .ok-button p input
@@ -710,12 +711,13 @@ input
     border-radius: 5px;
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
     text-align: center;
+    margin-left: 2%;
     margin: auto;
 }
 
 .buttons-container
 {
-    width: 60% !important;
+    width: 57% !important;
 }
 
 .button-column
@@ -737,12 +739,12 @@ display: flex;
 flex-direction: column;
 align-items: center;
 border-radius: 0px 5px 5px 0px;
-margin-top: -2%;
 background:#DC9F96;
 color:#FFFFFF;
 font-weight: 700;
+margin-top: 0px !important;
 margin-right: -5%;
-margin-left: -23%;
+margin-left: -18%;
 justify-content: center;
 z-index: 1 !important;
 }
@@ -754,14 +756,6 @@ z-index: 1 !important;
 .minus {
     margin-top: -4px !important
 }
-
-
-
-
-
-
-
-
 
 /* FOOTER */
 #footer 
