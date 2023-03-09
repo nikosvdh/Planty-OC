@@ -567,22 +567,7 @@ input
     height: 129px;
 }
 
-.fraise-column-order
-{
-    flex-basis: 25% !important;
-}
-
-.pamplemousse-column-order
-{
-    flex-basis: 25% !important;
-}
-
-.framboise-column-order
-{
-    flex-basis: 25% !important;
-}
-
-.citron-column-order
+.fruit-column-order
 {
     flex-basis: 25% !important;
 }
@@ -595,7 +580,7 @@ input
     line-height: 24px;
 }
 
-.fruit-column-order
+.fruits-container-order
 {
     width: 60% !important;
 }
@@ -676,7 +661,7 @@ input
     transform: rotate(90deg); 
     position: absolute;
     left: 530px;
-    top : 890px;
+    top : 805px;
     border: 0.5px solid #FFFFFF !important;
     width: 30% !important;
 }
