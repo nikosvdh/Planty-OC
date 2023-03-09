@@ -557,14 +557,34 @@ input
     width: 60% !important;
     color: #FFFFFF;
     margin-top: 40px !important;
-    margin-bottom: 40px !important;
+    margin-bottom: 7px !important;
     background-color: #3B8E46;
 }
 
 .fruit-image-order
 {
-    width: 180px;
-    height: auto !important;
+    width: 193px;
+    height: 129px;
+}
+
+.fraise-column-order
+{
+    flex-basis: 25% !important;
+}
+
+.pamplemousse-column-order
+{
+    flex-basis: 25% !important;
+}
+
+.framboise-column-order
+{
+    flex-basis: 25% !important;
+}
+
+.citron-column-order
+{
+    flex-basis: 25% !important;
 }
 
 .legend-order
@@ -577,8 +597,9 @@ input
 
 .fruit-column-order
 {
-    width: 80% !important;
+    width: 60% !important;
 }
+
 
 .fruits
 {
@@ -587,31 +608,26 @@ input
 
 .fraise-legend-order
 {
-    margin-left: -43px !important;
-    margin-right: -43px !important;
-}
-
-.fraise.order 
-{
-
+    margin-left: -36px !important;
+    margin-right: -36px !important;
 }
 
 .pamplemousse-legend-order
 {
-    margin-left: -48px !important;
-    margin-right: -48px !important;
+    margin-left: -50px !important;
+    margin-right: -50px !important;
 }
 
 .framboise-legend-order
 {
-    margin-left: -30px !important;
-    margin-right: -30px !important;
+    margin-left: -25px !important;
+    margin-right: -25px !important;
 }
 
 .citron-legend-order
 {
-    margin-left: -40px !important;
-    margin-right: -40px !important;
+    margin-left: -41px !important;
+    margin-right: -41px !important;
 }
 
 .fruits-separator
