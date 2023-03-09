@@ -80,3 +80,8 @@
 [09-Mar-2023 00:21:23] NOTICE: exiting, bye-bye!
 [09-Mar-2023 10:46:46] NOTICE: fpm is running, pid 40465
 [09-Mar-2023 10:46:46] NOTICE: ready to handle connections
+[09-Mar-2023 13:37:58] NOTICE: Terminating ...
+[09-Mar-2023 13:37:58] NOTICE: Terminating ...
+[09-Mar-2023 13:37:58] NOTICE: exiting, bye-bye!
+[09-Mar-2023 14:46:02] NOTICE: fpm is running, pid 43699
+[09-Mar-2023 14:46:02] NOTICE: ready to handle connections
