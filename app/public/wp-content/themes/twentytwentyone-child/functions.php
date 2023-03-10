@@ -26,7 +26,7 @@ function add_extra_item_to_nav_menu( $items, $args ) {
           $items = substr($items, $item_pos);
       }
       $items_array[] = $items;
-      array_splice($items_array, 1, 0, '<li class="menu-item"><a href="/Planty/wp-admin/">Admin</a></li>'); // insertion du lien en 2e position
+      array_splice($items_array, 1, 0, '<li class="menu-item"><a href="/wp-admin/">Admin</a></li>'); // insertion du lien en 2e position
 
       $items = implode('', $items_array);
       }

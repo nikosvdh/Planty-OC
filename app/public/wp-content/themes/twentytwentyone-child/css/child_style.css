@@ -554,7 +554,7 @@ input
 
 .h2-order
 {
-    width: 55% !important;
+    width: 57% !important;
     color: #FFFFFF;
     margin-top: 40px !important;
     margin-bottom: 7px !important;
@@ -779,4 +779,49 @@ footer nav a
 }
 
 
+/* MEDIA QUERIES */
 
+
+@media all and (max-width: 1185px)
+{
+   /* HOME PAGE */
+
+    .flower-bottle-left 
+    {
+        right: 620px;
+        width: 300px;
+    }
+
+    .flower-bottle-right
+    {
+        left: 615px;
+        width: 300px; 
+    }
+
+    
+}
+
+
+@media all and (max-width: 885px)
+{
+    #logo
+    {
+        margin: auto;
+    }
+
+    nav
+    {
+        margin: auto;
+    }
+
+    .header
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 695px)
+{
+    
+}
