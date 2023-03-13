@@ -946,6 +946,7 @@ footer nav a
     {
         display: flex;
         flex-direction: column;
+        align-items: center; 
     }
 
     #logo
@@ -965,16 +966,16 @@ footer nav a
         padding-left: 0 !important;
     }
 
-    #menu-item-33 a /* nous rencontrer */
-    {
-        text-align: center;
-    }
-
     #menu-item-32 a /* commander */
     {
         display: inline-block;
-        margin-bottom: -20px !important;
         text-align: center;
+        margin-bottom: -20px;
+    }
+
+    #menu-item-33 span:hover, #menu-item-32 span:hover
+    {
+        font-size: 15px !important;
     }
 
     #menu-header-menu span
@@ -995,11 +996,8 @@ footer nav a
 
     .menu-admin
     {
-        visibility: collapse;
-        margin-top: -90px;
+        display: none;
     }
-
- 
 
     .h1-home
     {
