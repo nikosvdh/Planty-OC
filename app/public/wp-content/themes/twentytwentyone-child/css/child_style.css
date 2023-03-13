@@ -72,6 +72,16 @@ nav ul
     margin-top: 105px !important;
 }
 
+.flower-left .flower-right
+{
+    flex-basis: 10%;
+}
+
+.bottle-container
+{
+    flex-basis: 80% !important;
+}
+
 .flower-bottle-left 
 {
     position: absolute;
@@ -173,17 +183,18 @@ nav ul
     margin-right: -30px !important;
 }
 
-.pamplemousse
-{
-    margin-left: -35px !important;
-    margin-right: -35px !important;
-}
-
 .citron
 {
     margin-left: -35px !important;
     margin-right: -35px !important;
 }
+
+.pamplemousse
+{
+    margin-left: -40px !important;
+    margin-right: -40px !important;
+}
+
 
 .fruits-row
 {
@@ -779,31 +790,104 @@ footer nav a
 }
 
 
+
 /* MEDIA QUERIES */
 
-
-@media all and (max-width: 1185px)
+@media all and (max-width: 1261px)
 {
-   /* HOME PAGE */
+    /* HOME PAGE */
 
     .flower-bottle-left 
     {
-        right: 620px;
-        width: 300px;
+        top: 500px;
+        left: 278px;
     }
 
     .flower-bottle-right
     {
-        left: 615px;
-        width: 300px; 
+        top: 500px;
+        left: 565px;
     }
 
-    
+    .flower-bottle-right img, .flower-bottle-left img
+    {
+        width: 70%;
+    }
+
+    .bottle img
+    {
+        width: 70%;
+    }
+
+    .fruit-image
+    {
+        width: 100% !important;
+    }
+
+    .pamplemousse
+    {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .legend
+    {
+        font-size: 29px !important;
+    }
+
+    .picture-container
+    {
+        margin-right: 23px !important;
+    }
+
+    .p-name
+    {
+        font-size : 13px;
+    }
 }
 
 
-@media all and (max-width: 885px)
+@media all and (max-width: 1210px)
 {
+    /* HOME PAGE */
+
+    .flower-bottle-left, .flower-bottle-right
+    {
+        display: none;
+    }
+
+    .pamplemousse
+    {
+        margin-left: -10px !important;
+        margin-right: -10px !important;
+    }
+
+    .picture-container
+    {
+        display: none;
+    }
+
+    .p-name
+    {
+        font-size : 16px;
+    }
+
+    .bottle-flowers
+    {
+        margin-bottom: 0px !important;
+    }
+}    
+
+@media all and (max-width: 910px)
+{
+    /* home page */
+
+    .header
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
     #logo
     {
         margin: auto;
@@ -814,14 +898,215 @@ footer nav a
         margin: auto;
     }
 
-    .header
+    nav ul
     {
         display: flex;
         flex-direction: column;
     }
+
+    #menu-item-33 a
+    {
+        display: inline-block;
+        padding-left: 22px;
+    }
+
+    #menu-item-32 a
+    {
+        display: inline-block;
+        padding-left: 35px;
+        margin-bottom: -20px !important;
+    }
+
+    #menu-item-32 span, li.menu-item-32 a:hover
+    {
+        background:none;
+        color:#DC9F96;
+    }
+
+    li.menu-item-32 a 
+    {
+        background:none;
+    }
+
+    .menu-admin
+    {
+        visibility: collapse;
+        margin: -65px !important;
+    }
+
+    .h1-home
+    {
+        font-size: 30px !important;
+        margin-top: 35px !important;
+        line-height: 38px !important;
+        margin-bottom: -5% !important;
+    }
+
+    .legend
+    {
+        font-size: 17px !important;
+    }
+
+    .h4-home
+    {
+        font-size: 24px !important;
+        margin-top: 25px !important;
+        margin-bottom: 45px !important;
+    }
+
+    .menu-item-30
+    {
+        font-size: 15px;
+    }
 }
 
-@media all and (max-width: 695px)
+@media all and (max-width: 821px)
 {
-    
+    /* home page */
+
+    .legend
+    {
+        font-size: 14.5px !important;
+    }
+
+    .fraise-column
+    {
+        margin-top: 30px !important;
+    }
+
+    .wp-container-10
+    {
+        margin-bottom: -10px !important;
+        margin-top: -50px !important;
+    }
 }
+
+@media all and (max-width: 781px)
+{
+    /* home page */
+
+    .h1-home
+    {
+        margin-bottom: -10% !important;
+    }
+
+    .bottle img
+    {
+        width: 60%;
+    }
+
+    .legend
+    {
+        font-size: 22px !important;
+    }
+
+    .fraise-column, .framboise-column
+    {
+        margin-bottom: -10px !important;
+    }
+
+    .p-name
+    {
+        font-size: 18px !important;
+        margin-bottom: -50px !important;
+    }
+
+}
+
+@media all and (max-width: 648px)
+{
+    /* home page */
+
+    .h1-home
+    {
+        font-size: 23px !important;
+    }
+
+    .p-h2-home, .p-h3-home
+    {
+        font-size: 17px !important; 
+    }
+
+    .legend
+    {
+        font-size: 34px !important;
+    }
+}
+
+
+@media all and (max-width: 490px)
+
+{
+    /* home page */
+
+    .h1-home
+    {
+        font-size: 16px !important;
+        line-height: 23px !important;
+        margin-bottom: -15% !important;
+    }
+  
+    .h2-home
+    {
+        font-size: 20px !important;
+
+    }
+
+    .h3-home, .h4-home
+    {
+        font-size: 16px !important;
+    }
+
+    .h4-home
+    {
+        margin-bottom: -20px !important;
+    }
+    
+    .legend
+    {
+        font-size: 22px !important;
+    }
+
+    .p-name, .name, .p-h2-home, .p-h3-home
+    {
+        font-size: 15px !important; 
+    }
+
+    .p-h2-home
+    {
+        margin-bottom: 60px !important;
+    }
+}
+
+@media all and (max-width: 370px)
+
+{
+    /* home page */
+
+    .h1-home
+    {
+        font-size: 14px !important;
+        margin-bottom: -20% !important;
+    }
+
+    .p-h2-home, .p-h3-home
+    {
+        font-size: 12.8px !important; 
+    }
+
+    .legend
+    {
+        font-size: 11.5px !important;
+    }
+
+    .h3-home, .h4-home
+    {
+        font-size: 15px !important;
+    }
+}
+
+
+
+
+
+
