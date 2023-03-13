@@ -8,6 +8,12 @@ body * {
     margin: auto;
 }
 
+/* cacher titre et bordure */
+.page .entry-header  
+{
+    display: none;
+}
+
 /* HEADER */
 
 .header
@@ -59,8 +65,41 @@ nav ul
     justify-content: center;
 }
 
+/* menu commander */
+li.menu-item-32 a 
+{
+    color:#FFFFFF;
+    width: 236px;
+    height: 80px;
+    background:#DC9F96;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 
-/* home */
+li.menu-item-32 span
+{
+    font-weight: 700 !important;
+    font-size: 16px;
+}
+
+li.menu-item-32 a:hover 
+{
+    background-color: #C02E44;
+    font-weight: 700 !important;
+    font-size: 16px;
+}
+
+/* menu admin */
+li.menu-item a:hover 
+{
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+/* HOME */
 
 .h1-home 
 {
@@ -281,33 +320,8 @@ nav ul
     margin-top: 80px !important;
 }
 
-/* menu commander */
-li.menu-item-32 a 
-{
-    color:#FFFFFF;
-    width: 236px;
-    height: 80px;
-    background:#DC9F96;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
 
-li.menu-item-32 span
-{
-    font-weight: 700 !important;
-    font-size: 16px;
-}
-
-li.menu-item-32 a:hover 
-{
-    background-color: #C02E44;
-    font-weight: 700 !important;
-    font-size: 16px;
-}
-
-/* nous rencontrer */
+/* NOUS RENCONTRER */
 li.menu-item-33 span:hover 
 {
     font-weight: 700;
@@ -427,28 +441,6 @@ h2
     margin-top: 65px !important;
     margin-bottom: 47px !important;
 }
- 
-
-/* admin */
-li.menu-item a:hover 
-{
-    font-weight: 700;
-    font-size: 13px;
-}
-
-/*
-.page .entry-title 
-{
-    display: none;
-}
-*/
-
-/* cacher titre et bordure */
-.page .entry-header  
-{
-    display: none;
-}
-
 
 .h1-meet-us
 {
@@ -533,7 +525,7 @@ input
 }
 
 
-/* PAGE COMMANDER */
+/* COMMANDER */
 
 .h1-order
 {
@@ -589,7 +581,6 @@ input
 {
     width: 57% !important;
 }
-
 
 .fruits
 {
@@ -798,7 +789,7 @@ footer nav a
 
 @media all and (max-width: 1261px)
 {
-    /* HOME PAGE */
+    /* home page */
 
     .flower-bottle-left 
     {
@@ -847,12 +838,20 @@ footer nav a
     {
         font-size : 13px;
     }
+
+     /* nous rencontrer */
+
+    .flower-title, .flower-team, .flower-contact-form
+    {
+        display: none;
+    }
+
 }
 
 
 @media all and (max-width: 1210px)
 {
-    /* HOME PAGE */
+    /* home page */
 
     .flower-bottle-left, .flower-bottle-right
     {
@@ -879,9 +878,17 @@ footer nav a
     {
         margin-bottom: 0px !important;
     }
+
+     /* nous rencontrer*/
+
+    .h1-meet-us
+    {
+        margin-top: 70px !important;
+    }
+
 }    
 
-@media all and (max-width: 910px)
+@media all and (max-width: 915px)
 {
     /* home page */
 
@@ -963,6 +970,13 @@ footer nav a
     {
         font-size: 15px;
     }
+
+    /* nous rencontrer*/
+
+    .p-meet-us, .job
+    {
+        font-size: 19px !important;
+    }
 }
 
 @media all and (max-width: 821px)
@@ -1016,7 +1030,21 @@ footer nav a
         margin-bottom: -50px !important;
     }
 
+    /* nous rencontrer*/
+
+    .h1-meet-us
+    {
+        font-size: 27px !important;
+    }
+
+    .p-meet-us
+    {
+        margin-top: -30px !important;
+        margin-bottom: -20px !important;
+        font-size: 17px !important;
+    }
 }
+
 
 @media all and (max-width: 648px)
 {
@@ -1081,7 +1109,22 @@ footer nav a
     {
         margin-bottom: 60px !important;
     }
+
+    /* nous rencontrer*/
+
+  .h1-meet-us
+    {
+        font-size: 17px !important;
+        margin-top: 30px !important;
+    }
+
+    .p-meet-us
+    {
+        margin-top: -50px !important;
+        font-size: 15px !important;
+    }
 }
+
 
 @media all and (max-width: 370px)
 
@@ -1108,12 +1151,6 @@ footer nav a
     {
         font-size: 15px !important;
     }
-
-    footer
-    {
-        background: #C02E44 !important;
-    }
-
 }
 
 
