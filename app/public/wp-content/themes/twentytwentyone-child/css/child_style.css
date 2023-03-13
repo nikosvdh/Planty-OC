@@ -30,7 +30,8 @@ body * {
     object-fit: cover;
 }
 
-nav{
+nav
+{
     margin-right: 0;
 }
 
@@ -435,13 +436,6 @@ li.menu-item a:hover
     font-size: 13px;
 }
 
-
-.margin
-{
-    margin: auto;
-}
-
-
 /*
 .page .entry-title 
 {
@@ -769,14 +763,23 @@ z-index: 1 !important;
 }
 
 /* FOOTER */
-#footer 
+
+footer
 {
-    text-align: center !important;
-    background-color: #ffffff;
-    display: flex !important;
-    justify-content: center !important;
-    margin-right: 50px;
     margin-top: -30px !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer nav
+{ 
+    margin: auto !important;
+}
+
+footer ul
+{
+    padding-left: 0;
 }
 
 footer nav a
@@ -954,6 +957,8 @@ footer nav a
         margin-bottom: 45px !important;
     }
 
+    /* footer */
+
     .menu-item-30
     {
         font-size: 15px;
@@ -1103,6 +1108,12 @@ footer nav a
     {
         font-size: 15px !important;
     }
+
+    footer
+    {
+        background: #C02E44 !important;
+    }
+
 }
 
 

@@ -1,10 +1,9 @@
 </main>
 </div>
+<footer>
 
-<footer id="footer">
-
-    <nav class="margin">
-        <?php
+    <nav>
+        <?php 
  wp_nav_menu ( array ('theme_location' => 'footer-menu') ); ?>
     </nav>
 
