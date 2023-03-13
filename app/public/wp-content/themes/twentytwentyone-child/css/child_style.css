@@ -846,6 +846,47 @@ footer nav a
         display: none;
     }
 
+    /* commander */
+    .fruit-image-order
+    {
+        width: 100% !important;
+    }
+
+    .legend-order
+    {
+        font-size: 11.5px !important;
+    }
+
+    hr 
+    {
+        display: none ;
+    }
+
+    .fraise-legend-order
+    {
+        margin-left: -57px !important;
+        margin-right: -57px !important;
+    }
+
+    .pamplemousse-legend-order
+    {
+        margin-left: -44.5px !important;
+        margin-right: -44.5px !important;
+    }
+
+    .framboise-legend-order
+    {
+        margin-left: -54px !important;
+        margin-right: -54px !important;
+    }
+
+    .citron-legend-order
+    {
+        margin-left: -59px !important;
+        margin-right: -59px !important;
+    }
+
+
 }
 
 
@@ -886,9 +927,18 @@ footer nav a
         margin-top: 70px !important;
     }
 
+    /* commander */
+
+    .delivery, .info
+    {
+        font-size: 22px !important;
+    }
+    
+    
+
 }    
 
-@media all and (max-width: 915px)
+@media all and (max-width: 923px)
 {
     /* home page */
 
@@ -912,19 +962,24 @@ footer nav a
     {
         display: flex;
         flex-direction: column;
+        padding-left: 0 !important;
     }
 
-    #menu-item-33 a
+    #menu-item-33 a /* nous rencontrer */
     {
-        display: inline-block;
-        padding-left: 22px;
+        text-align: center;
     }
 
-    #menu-item-32 a
+    #menu-item-32 a /* commander */
     {
         display: inline-block;
-        padding-left: 35px;
         margin-bottom: -20px !important;
+        text-align: center;
+    }
+
+    #menu-header-menu span
+    {
+        font-size: 20px !important;
     }
 
     #menu-item-32 span, li.menu-item-32 a:hover
@@ -941,8 +996,10 @@ footer nav a
     .menu-admin
     {
         visibility: collapse;
-        margin: -65px !important;
+        margin-top: -90px;
     }
+
+ 
 
     .h1-home
     {
@@ -971,15 +1028,22 @@ footer nav a
         font-size: 15px;
     }
 
-    /* nous rencontrer*/
+    /* nous rencontrer */
 
     .p-meet-us, .job
     {
         font-size: 19px !important;
     }
+
+    /* commander*/
+
+    .delivery, .info
+    {
+        font-size: 19px !important;
+    }
 }
 
-@media all and (max-width: 821px)
+@media all and (max-width: 827px)
 {
     /* home page */
 
@@ -997,6 +1061,23 @@ footer nav a
     {
         margin-bottom: -10px !important;
         margin-top: -50px !important;
+    }
+
+     /* commander*/
+
+    .delivery, .info
+    {
+        font-size: 18px !important;
+    }
+
+    .two-columns label
+    {
+        font-size: 16px !important;
+    }
+
+    .fruit-image-order
+    {
+        width: 120% !important;
     }
 }
 
@@ -1150,6 +1231,19 @@ footer nav a
     .h3-home, .h4-home
     {
         font-size: 15px !important;
+    }
+
+    /* commander */
+
+    .h1-order
+    {
+        font-size: 25px !important;
+    }
+
+    .h2-order
+    {
+        font-size: 18px !important;
+
     }
 }
 
