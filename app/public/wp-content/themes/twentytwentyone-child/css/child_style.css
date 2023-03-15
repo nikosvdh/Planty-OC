@@ -889,7 +889,7 @@ footer nav a
 
     .button-row
     {
-        width: 80px !important;
+        width: 100% !important;
     }
 
     .input-quantity input
@@ -959,26 +959,22 @@ footer nav a
 {
      /* commander */
 
-    .button-row
-    {
-        width: 85px !important;
-    }
-   
     .input-quantity input
     {
-        width: 30px;
+        width: 80%;
+        margin-left: 30px !important;
     }
 
     .ok-button p input
     {
-        width: 40px !important;
+        width: 50% !important;
         padding-left: 10px !important;
-        margin-left: 13px;
+        margin-left: 3px;
     }
 
     .arrow-button
     {
-        margin-left: -22px !important;
+        margin-left: -4px !important;
     }
 }
 
@@ -1083,27 +1079,21 @@ footer nav a
     {
         font-size: 19px !important;
     }
-
-    .button-row
-    {
-        width: 90px !important;
-    }
    
     .input-quantity input
     {
-        width: 30px;
+        width: 45% !important;
+        margin-left: 40px !important;
     }
 
     .ok-button p input
     {
-        width: 45px !important;
-        padding-left: 13px !important;
         margin-left: -10px;
     }
 
     .arrow-button
     {
-        margin-left: -22px !important;
+        margin-left: -18px !important;
     }
 }
 
@@ -1147,9 +1137,24 @@ footer nav a
 
     .button-row
     {
-        width: 100px !important;
-        margin-top: -25px;
+        margin-top: -20px;
     }
+
+    .input-quantity input
+    {
+        margin-left: 60px !important;
+    }
+
+    .arrow-button
+    {
+        margin-left: -12px !important;
+    }
+
+    .ok-button p input
+    {
+        margin-left: -11px;
+    }
+
 }
 
 @media all and (max-width: 781px)
@@ -1198,13 +1203,60 @@ footer nav a
 
     /* commander*/
 
+    .h2-order
+    {
+        width: 80% !important;
+        display: flex;
+        flex-wrap: nowrap !important;
+    }
+
     .fruit-image-order
     {
-        width: 50% !important;
+        width: 100% !important;
+    }
+
+    .fruits-container-order
+    {
+        width: 80% !important;
+        display: flex !important;    
+        flex-wrap: nowrap !important;
+    }
+
+    .buttons-container
+    {
+        display: flex !important;    
+        flex-wrap: nowrap !important;
+        width: 80% !important;
+    }
+
+    .ok-button p input
+    {
+        margin-left: 0px;
+    }
+   
+    .input-quantity input
+    {
+        margin-right: 50px !important;
+        margin-left: 35px !important;
+    }
+
+    .arrow-button
+    {
+        margin-left: -50px !important;
+    }
+   
+    .delivery, .info
+    {
+        text-align: left;
+        font-size: 20px !important;
+    }
+
+    .wp-block-contact-form-7-contact-form-selector
+    {
+        width: 80% !important;
     }
 
 }
-
 
 @media all and (max-width: 648px)
 {
@@ -1224,8 +1276,55 @@ footer nav a
     {
         font-size: 34px !important;
     }
-}
 
+    /* commander */
+
+    .legend-order
+    {
+        font-size: 9px !important;
+    }
+
+    .ok-button p input
+    {
+        margin-left: -10px;
+    }
+
+    .input-quantity input
+    {
+        margin-left: 40px !important;
+    }
+
+    .button-row
+    {
+        width: 90% !important;
+    }
+
+    .h2-order
+    {
+        width: 90% !important;
+    }
+
+    .fruits-container-order
+    {
+        width: 90% !important;
+    }
+
+    .buttons-container
+    {
+        width: 90% !important;
+    }
+
+    .delivery, .info
+    {
+        font-size: 18px !important;
+    }
+
+    .wp-block-contact-form-7-contact-form-selector
+    {
+        width: 90% !important;
+    }
+
+}
 
 @media all and (max-width: 490px)
 
@@ -1282,6 +1381,23 @@ footer nav a
     {
         margin-top: -50px !important;
         font-size: 15px !important;
+    }
+
+    /* commanderr*/
+
+    .buttons-container
+    {
+        width: 80% !important;
+    }
+
+    .ok-button p input
+    {
+        margin-left: -15px;
+    }
+
+    .input-quantity input
+    {
+        margin-left: 20px !important;
     }
 }
 
