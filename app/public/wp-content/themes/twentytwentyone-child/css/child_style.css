@@ -753,6 +753,7 @@ z-index: 1 !important;
     margin-top: -4px !important
 }
 
+
 /* FOOTER */
 
 footer
@@ -886,9 +887,28 @@ footer nav a
         margin-right: -59px !important;
     }
 
+    .button-row
+    {
+        width: 80px !important;
+    }
 
+    .input-quantity input
+    {
+        width: 40px;
+    }
+
+    .ok-button p input
+    {
+        width: 60px !important;
+        padding-left: 20px !important;
+        margin-left: 7px;
+    }
+
+    .arrow-button
+    {
+        margin-left: -21px !important;
+    }
 }
-
 
 @media all and (max-width: 1210px)
 {
@@ -933,10 +953,34 @@ footer nav a
     {
         font-size: 22px !important;
     }
-    
-    
+} 
 
-}    
+@media all and (max-width: 1080px)
+{
+     /* commander */
+
+    .button-row
+    {
+        width: 85px !important;
+    }
+   
+    .input-quantity input
+    {
+        width: 30px;
+    }
+
+    .ok-button p input
+    {
+        width: 40px !important;
+        padding-left: 10px !important;
+        margin-left: 13px;
+    }
+
+    .arrow-button
+    {
+        margin-left: -22px !important;
+    }
+}
 
 @media all and (max-width: 923px)
 {
@@ -1039,6 +1083,28 @@ footer nav a
     {
         font-size: 19px !important;
     }
+
+    .button-row
+    {
+        width: 90px !important;
+    }
+   
+    .input-quantity input
+    {
+        width: 30px;
+    }
+
+    .ok-button p input
+    {
+        width: 45px !important;
+        padding-left: 13px !important;
+        margin-left: -10px;
+    }
+
+    .arrow-button
+    {
+        margin-left: -22px !important;
+    }
 }
 
 @media all and (max-width: 827px)
@@ -1066,6 +1132,7 @@ footer nav a
     .delivery, .info
     {
         font-size: 18px !important;
+        margin-top: -15px !important;
     }
 
     .two-columns label
@@ -1076,6 +1143,12 @@ footer nav a
     .fruit-image-order
     {
         width: 120% !important;
+    }
+
+    .button-row
+    {
+        width: 100px !important;
+        margin-top: -25px;
     }
 }
 
@@ -1122,6 +1195,14 @@ footer nav a
         margin-bottom: -20px !important;
         font-size: 17px !important;
     }
+
+    /* commander*/
+
+    .fruit-image-order
+    {
+        width: 50% !important;
+    }
+
 }
 
 
@@ -1241,7 +1322,6 @@ footer nav a
     .h2-order
     {
         font-size: 18px !important;
-
     }
 }
 
