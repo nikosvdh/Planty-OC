@@ -852,6 +852,11 @@ footer nav a
         display: none;
     }
 
+    .p-meet-us
+    {
+        font-size: 19px !important;
+    }
+
     /* commander */
     .fruit-image-order
     {
@@ -949,7 +954,12 @@ footer nav a
 
     .h1-meet-us
     {
-        margin-top: 70px !important;
+        margin-top: 100px !important;
+    }
+
+    .p-meet-us
+    {
+        font-size: 18px !important;
     }
 
     /* commander */
@@ -1073,9 +1083,14 @@ footer nav a
 
     /* nous rencontrer */
 
-    .p-meet-us, .job
+    .p-meet-us
     {
-        font-size: 19px !important;
+        font-size: 17px !important;
+    }
+
+    .job
+    {
+        font-size: 16px !important;
     }
 
     /* commander*/
@@ -1114,6 +1129,13 @@ footer nav a
     .fraise-column
     {
         margin: 0 !important;
+    }
+
+    /* nous rencontrer */
+
+    .job
+    {
+        font-size: 15px !important;
     }
 
      /* commander*/
