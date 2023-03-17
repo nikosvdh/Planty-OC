@@ -863,9 +863,9 @@ footer nav a
         font-size: 11.5px !important;
     }
 
-    hr 
+    .separator-rotation
     {
-        display: none ;
+        display: none;
     }
 
     .fraise-legend-order
@@ -1124,6 +1124,11 @@ footer nav a
 
      /* commander*/
 
+     .h2-order
+     {
+        width: 80% !important;
+     }
+
     .delivery, .info
     {
         font-size: 18px !important;
@@ -1137,7 +1142,22 @@ footer nav a
 
     .fruit-image-order
     {
-        width: 120% !important;
+        width: 100% !important;
+    }
+
+    .fruits-container-order
+    {
+        width: 80% !important;
+    }
+
+    .buttons-container
+    {
+        width: 80% !important;
+    }
+
+    .wp-block-contact-form-7-contact-form-selector
+    {
+        width: 80% !important;
     }
 
     .button-row
@@ -1147,19 +1167,32 @@ footer nav a
 
     .input-quantity input
     {
-        margin-left: 60px !important;
+        margin-left: 10px !important;
+        width: 100% !important;
     }
 
     .arrow-button
     {
-        margin-left: -12px !important;
+        margin-left: -14px !important;
     }
 
     .ok-button input
     {
-        margin-left: -11px;
+        margin-left: -5px;
+        width: 90% !important;
+        padding-left: 18px !important;
     }
 
+    .ok-button span
+    {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .separator
+    {
+        width : 80% !important;
+    }
 }
 
 @media all and (max-width: 781px)
@@ -1210,19 +1243,12 @@ footer nav a
 
     .h2-order
     {
-        width: 80% !important;
         display: flex;
         flex-wrap: nowrap !important;
     }
 
-    .fruit-image-order
-    {
-        width: 100% !important;
-    }
-
     .fruits-container-order
     {
-        width: 80% !important;
         display: flex !important;    
         flex-wrap: nowrap !important;
     }
@@ -1231,18 +1257,20 @@ footer nav a
     {
         display: flex !important;    
         flex-wrap: nowrap !important;
-        width: 80% !important;
     }
 
     .ok-button input
     {
         margin-left: 0px;
+        width: 65% !important;
+        padding-left: 10px !important;
     }
    
     .input-quantity input
     {
         margin-right: 50px !important;
-        margin-left: 35px !important;
+        margin-left: 20px !important;
+        width: 50% !important;
     }
 
     .arrow-button
@@ -1254,11 +1282,6 @@ footer nav a
     {
         text-align: left;
         font-size: 20px !important;
-    }
-
-    .wp-block-contact-form-7-contact-form-selector
-    {
-        width: 80% !important;
     }
 }
 
@@ -1297,6 +1320,7 @@ footer nav a
     .ok-button
     {
         width: 50% !important;
+        z-index: 0;
     }
 
     .input-quantity input
@@ -1308,6 +1332,7 @@ footer nav a
     .arrow-button
     {
         margin-left: -55px !important;
+        border-radius: 0;
     }
 
     .button-row
@@ -1319,13 +1344,17 @@ footer nav a
     {
         font-size: 18px !important;
     }
+}
 
 @media all and (max-width: 578px)
 
 {
-    .h1-order
+    /* commander */
+
+    .h1-order, .first-h2-order
     {
         font-size: 25px !important;
+        margin-bottom: 10px !important;
     }
 
     .legend-order
@@ -1338,7 +1367,86 @@ footer nav a
         font-size: 16px !important;
     }
 
+    .fruits-container-order
+    {
+        width: 70% !important;
+    }
+
+    .buttons-container
+    {
+        width: 70% !important;
+    }
+
+    .wp-block-contact-form-7-contact-form-selector
+    {
+        width: 70% !important;
+    }
+
+    .h2-order
+    {
+        width: 100% !important;
+        display: flex;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+
+    .ok-button input
+    {
+        margin-left: -21px !important;
+        margin-right: 0px !important;
+    }
+
+    .ok-button
+    {
+        width: 150% !important;
+        z-index: 0;
+    }
+
+    .input-quantity input
+    {
+        margin-left: 15px !important;
+        width: 40% !important;
+    }
+
+    .arrow-button
+    {
+        margin-left: -65px !important;
+    }
+
+    .two-columns label
+    {
+        font-size: 13px !important;
+    }
+
+    .info
+    {
+        font-size: 18px !important;
+        text-align: center !important;
+        margin-left: 0 !important;
+    }
+
+    .delivery
+    {
+       display: none;
+    }
+
+    #wpcf7-f37-p17-o5
+    {
+        margin-top: -50px !important;
+    }
+
+    .separator
+    {
+        width: 70% !important;
+    }
+
+    .two-columns
+    {
+        column-gap: 25px !important;
+    }
 }
+
+
 
 @media all and (max-width: 490px)
 
@@ -1385,7 +1493,7 @@ footer nav a
 
     /* nous rencontrer*/
 
-  .h1-meet-us
+    .h1-meet-us
     {
         font-size: 17px !important;
         margin-top: 30px !important;
@@ -1397,158 +1505,94 @@ footer nav a
         font-size: 15px !important;
     }
 
-    /* commanderr*/
+    /* commander */
 
-    .h1-order
+    .legend-order
     {
-        font-size: 25px !important;
-        margin-bottom: 10px !important;
+        font-size: 8.5px !important;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
     }
 
-    .h2-order
+    .fraise-legend-order, .pamplemousse-legend-order, .framboise-legend-order, .citron-legend-order
     {
-        font-size: 18px !important;
-    }
-
-    .buttons-container
-    {
-        width: 90% !important;
-        margin-top: 40px !important;
-    }
-
-    .input-quantity input
-    {
-        margin-left: 0px !important;
-        margin-top: 48px !important;
-        height: 43% !important;
-        width: 46% !important;
+        margin-left: -35px !important;
     }
 
     .arrow-button
     {
-        margin-left: 40px !important;
-        margin-top: -54px !important;
-        border-radius: 5px;
         width: 50% !important;
-        height: 80% !important;
+    }
+
+    .two-columns
+    {
+        column-gap: 20px !important;
+    }
+
+    .ok-button span
+    {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .input-quantity
+    {
+        margin-left: -15px !important;
+    }
+}
+
+@media all and (max-width: 405px)
+
+{
+    /* commander */
+
+    .fruits-container-order
+    {
+        width: 80% !important;
+    }
+
+    .wp-block-contact-form-7-contact-form-selector
+    {
+        width: 80% !important;
+    }
+
+    .buttons-container
+    {
+        width: 80% !important;
+    }
+
+    .separator
+    {
+        width: 80% !important;
     }
 
     .button-row
     {
+        margin-top: 30px !important;
         display: flex;
         flex-direction: column !important;
         align-items: center !important;
     }
 
     .ok-button input
-    {   margin-left: -20px !important;
-        margin-right: 0px !important;
+    {
+        margin-left: -25px !important;
         margin-top: 5px !important;
-        width: 100% !important;
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-
-    .info, .delivery
-    {
-        font-size: 16px !important;
-        margin-top: 20px !important;
-    }
-}
-
- /*
-@media all and (max-width: 460px)
-
-{
-     commander 
-
-   
-    .fruit-image-order
-    {
-        width: 80% !important;
-    }
-
-    .fruits-container-order
-    {
-        width: 80% !important;
-        display: flex !important;    
-        flex-wrap: wrap !important;
-    }
-
-    .buttons-container
-    {  
-        width: 80% !important;
-        display: flex !important;
-        flex-wrap: wrap !important;
-        margin-bottom: 0px !important;
-    }
-
-    .button-column
-    {
-        margin-bottom: 50px !important;
-    }
-
-    .button-row
-    {
-        margin-top: 0px !important;
     }
 
     .input-quantity input
     {
-        margin-left: 0px !important;
-        width: 100% !important;
-    }
-
-    .ok-button input
-    {   margin-left: 0px !important;
-        margin-top: 5px !important;
-        width: 100% !important;
-        height: 30% !important;
-        padding-left: 25px !important;
+        margin-left: 34px !important;
     }
 
     .arrow-button
     {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-        margin-top: -15px !important;
-        border-radius: 5px;
-        width: 85% !important;
+        margin-left: 30px !important;
+        margin-top: -71px !important;
+        border-radius: 0 5px 5px 0;
     }
-
-    .plus
-    {
-        border-bottom: #FFFFFF solid 0.5px;
-        width: 100%;
-        text-align: center;
-    }
-
-    p.plus 
-    {
-        font-size: 16px !important;
-    }
-
-    .legend-order
-    {
-        font-size: 15px !important;
-    }
-
-    .fruit-column-order
-    {
-        margin-bottom: 50px !important;
-    }
-
-    .pamplemousse-form    
-    {
-        background-color: #C02E44 !important;
-
-
-    }
-
-    
-
 }
-*/
+
 @media all and (max-width: 370px)
 
 {
@@ -1577,10 +1621,63 @@ footer nav a
 
     /* commander */
 
+    .fruits-container-order
+    {
+        width: 85% !important;
+    }
+
+    .wp-block-contact-form-7-contact-form-selector
+    {
+        width: 85% !important;
+    }
+
+    .buttons-container
+    {
+        width: 85% !important;
+    }
+
+    .separator
+    {
+        width: 85% !important;
+    }
+
+    .ok-button input
+    {
+        margin-left: -23px !important;
+        margin-top: 5px !important;
+    }
+
+    .ok-button span
+    {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .input-quantity input
+    {
+        margin-left: 15px !important;
+        margin-right: 10px !important;
+        width: 100% !important;
+        height: 50% !important;
+    }
+
+    .arrow-button
+    {
+        margin-left: -3px !important;
+        margin-top: -10px !important;
+        margin-bottom: 5px !important;
+        border-radius: 5px;
+        width: 81% !important;
+    }
+
+    .button-row
+    {
+        margin-top: 55px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .two-columns
+    {
+        column-gap: 5px !important;
+    }
 }
-
-
-
-
-
-
