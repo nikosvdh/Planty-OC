@@ -1605,8 +1605,31 @@ footer nav a
 
     .legend
     {
-        font-size: 11.5px !important;
+        font-size: 17px !important;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
     }
+
+    .fraise
+    {
+        margin-left: 17px !important;
+    }
+
+    .pamplemousse
+    {
+        margin-left: 15px !important;
+    }
+
+    .framboise
+    {
+        margin-left: -4px !important;
+    }
+
+    .citron
+    {
+        margin-left: -5px !important;
+    }
+
 
     .h3-home, .h4-home
     {
