@@ -1111,10 +1111,9 @@ footer nav a
         font-size: 14.5px !important;
     }
 
-    .wp-container-10
+    .fraise-column
     {
-        margin-bottom: -10px !important;
-        margin-top: -20px !important;
+        margin: 0 !important;
     }
 
      /* commander*/
