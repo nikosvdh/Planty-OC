@@ -180,3 +180,8 @@
 [17-Mar-2023 12:22:37] NOTICE: exiting, bye-bye!
 [17-Mar-2023 16:58:21] NOTICE: fpm is running, pid 2053
 [17-Mar-2023 16:58:21] NOTICE: ready to handle connections
+[17-Mar-2023 19:51:50] NOTICE: Terminating ...
+[17-Mar-2023 19:51:50] NOTICE: Terminating ...
+[17-Mar-2023 19:51:50] NOTICE: exiting, bye-bye!
+[17-Mar-2023 21:18:14] NOTICE: fpm is running, pid 3830
+[17-Mar-2023 21:18:14] NOTICE: ready to handle connections

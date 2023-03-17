@@ -1462,8 +1462,6 @@ footer nav a
     }
 }
 
-
-
 @media all and (max-width: 490px)
 
 {
@@ -1660,6 +1658,11 @@ footer nav a
 
     /* commander */
 
+    .h1-order
+    {
+        margin-top: 20px !important;
+    }
+
     .fruits-container-order
     {
         width: 85% !important;
@@ -1682,8 +1685,8 @@ footer nav a
 
     .ok-button input
     {
-        margin-left: -23px !important;
-        margin-top: 5px !important;
+        margin-left: -19px !important;
+        margin-top: 15px !important;
     }
 
     .ok-button span
@@ -1702,11 +1705,11 @@ footer nav a
 
     .arrow-button
     {
-        margin-left: -3px !important;
-        margin-top: -10px !important;
+        margin-left: -1px !important;
+        margin-top: 0px !important;
         margin-bottom: 5px !important;
         border-radius: 5px;
-        width: 81% !important;
+        width: 78% !important;
     }
 
     .button-row
@@ -1717,7 +1720,7 @@ footer nav a
 
     .two-columns
     {
-        column-gap: 5px !important;
+        column-gap: 10px !important;
     }
 }
 
@@ -1744,5 +1747,28 @@ footer nav a
     .citron
     {
         margin-left: -17px !important;
+    }
+
+    /* commander */
+
+    .ok-button input
+    {
+        margin-left: -24px !important;
+    }
+
+    .input-quantity input
+    {
+        margin-right: 8px !important;
+    }
+
+    .arrow-button
+    {
+        margin-left: -2px !important;
+        width: 84% !important;
+    }
+
+    .two-columns
+    {
+        column-gap: 5px !important;
     }
 }
