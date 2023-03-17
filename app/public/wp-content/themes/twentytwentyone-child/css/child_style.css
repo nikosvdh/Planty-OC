@@ -1698,3 +1698,29 @@ footer nav a
         column-gap: 5px !important;
     }
 }
+
+@media all and (max-width: 320px)
+
+{
+    /* home page */
+
+    .fraise
+    {
+        margin-left: 3px !important;
+    }
+
+    .pamplemousse
+    {
+        margin-left: 2px !important;
+    }
+
+    .framboise
+    {
+        margin-left: -18px !important;
+    }
+
+    .citron
+    {
+        margin-left: -17px !important;
+    }
+}
