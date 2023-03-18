@@ -43,4 +43,4 @@ Les ressources :
 </ul>
 
 ### Le site
-![Image2](/app/public/wp-content/themes/twentytwentyone-child/images/Home screenshot Planty .png)
+![Image2](/app/public/wp-content/themes/twentytwentyone-child/images/Home_screenshot_Planty.png)
