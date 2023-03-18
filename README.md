@@ -2,7 +2,7 @@
 
 
 
-## Projet OC numéro 6 : Personnalisez un thème WordPress pour une startup avec HTML, CSS et PHP
+## Projet OpenClassrooms no 6 : Personnalisez un thème WordPress pour une startup avec HTML, CSS et PHP
 
 ### Objectif et ressources
 Pour ce projet, l'objectif est de développer le site vitrine de la société Planty, marque de boissons énergisantes à base de plantes.  
@@ -30,8 +30,8 @@ Les ressources :
 <ul>
     <li>Installation de WordPress via Local car problèmes avec MAMP <a href="https://localwp.com/" target="_blank">Local</a>.</li>
     <li>Utilisation du thème <a href="https://fr.wordpress.org/themes/twentytwentyone/" target="_blank">Twenty Twenty One</a>.</li>
-    <li>Mise en place du plugin <a href="https://wordpress.org/plugins/duplicatepage/" target="_blank">Duplicate Page</a> pour dupliquer facilement les pages.</li>
-    <li>Mise en place du plugin <a href="https://wordpress.org/plugins/contactform7/" target="_blank">Contact Form 7</a> pour la gestion des 2 formulaires.</li>
+    <li>Mise en place du plugin <a href="https://wordpress.org/plugins/duplicate-page/" target="_blank">Duplicate Page</a> pour dupliquer facilement les pages.</li>
+    <li>Mise en place du plugin <a href="https://wordpress.org/plugins/contact-form-7/" target="_blank">Contact Form 7</a> pour la gestion des 2 formulaires.</li>
 </ul>
 
 ### Configuration
