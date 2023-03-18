@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-01-30 03:27+0100\n"
-"PO-Revision-Date: 2023-01-30 03:27+0100\n"
+"POT-Creation-Date: 2023-03-15 01:57+0100\n"
+"PO-Revision-Date: 2023-03-15 01:57+0100\n"
 "Last-Translator: CodePeople\n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -15,11 +15,11 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: cp_calculatedfieldsf_free.php:78
+#: cp_calculatedfieldsf_free.php:84
 msgid "Form Preview"
 msgstr ""
 
-#: cp_calculatedfieldsf_free.php:119
+#: cp_calculatedfieldsf_free.php:126
 msgid ""
 "<div class=\"error-text\">The data cannot be stored in database because has "
 "occurred an error with the database structure. Please, go to the plugins "
@@ -28,7 +28,7 @@ msgid ""
 "please <a href=\"https://cff.dwbooster.com/contact-us\">contact us</a></div>"
 msgstr ""
 
-#: cp_calculatedfieldsf_free.php:130
+#: cp_calculatedfieldsf_free.php:137
 msgid ""
 "<div class=\"error-text\">The data cannot be stored in database because has "
 "occurred an error with the form structure. Please, try to save the data "
@@ -42,7 +42,7 @@ msgid "Settings saved"
 msgstr ""
 
 #: inc/cpcff_admin_int.inc.php:51 inc/cpcff_admin_int_list.inc.php:148
-#: inc/cpcff_page_builders.inc.php:164
+#: inc/cpcff_page_builders.inc.php:165
 #: pagebuilders/beaverbuilder/cff/cff/cff.php:9
 #: pagebuilders/beaverbuilder/cff/cff/cff.php:11
 #: pagebuilders/beaverbuilder/cff/cff/cff.php:12
@@ -276,7 +276,7 @@ msgid "Request Custom Modifications"
 msgstr ""
 
 #: inc/cpcff_admin_int.inc.php:384 inc/cpcff_admin_int.inc.php:749
-#: inc/cpcff_admin_int_list.inc.php:436 inc/cpcff_main.inc.php:219
+#: inc/cpcff_admin_int_list.inc.php:436 inc/cpcff_main.inc.php:229
 msgid "Help"
 msgstr ""
 
@@ -701,7 +701,7 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
-#: inc/cpcff_admin_int_list.inc.php:304 inc/cpcff_main.inc.php:217
+#: inc/cpcff_admin_int_list.inc.php:304 inc/cpcff_main.inc.php:227
 msgid "Settings"
 msgstr ""
 
@@ -859,7 +859,7 @@ msgstr ""
 msgid "Calculated Fields Form Marketplace"
 msgstr ""
 
-#: inc/cpcff_admin_int_list.inc.php:436 inc/cpcff_main.inc.php:218
+#: inc/cpcff_admin_int_list.inc.php:436 inc/cpcff_main.inc.php:228
 msgid "Upgrade"
 msgstr ""
 
@@ -932,15 +932,15 @@ msgid ""
 "settings."
 msgstr ""
 
-#: inc/cpcff_main.inc.php:216
+#: inc/cpcff_main.inc.php:226
 msgid "Request custom changes"
 msgstr ""
 
-#: inc/cpcff_main.inc.php:235
+#: inc/cpcff_main.inc.php:245
 msgid "Insert Calculated Fields Form"
 msgstr ""
 
-#: inc/cpcff_main.inc.php:235
+#: inc/cpcff_main.inc.php:245
 msgid "Create a JavaScript var from POST, GET, SESSION, or COOKIE var"
 msgstr ""
 
@@ -960,6 +960,10 @@ msgid "Additional attributes"
 msgstr ""
 
 #: inc/cpcff_page_builders.inc.php:92
+msgid "Load form into an iframe"
+msgstr ""
+
+#: inc/cpcff_page_builders.inc.php:93
 #: pagebuilders/beaverbuilder/cff/cff.inc.php:44
 #: pagebuilders/elementor/elementor.pb.php:79
 #: pagebuilders/siteorigin/siteorigin-cpcff/fields/cff-button.class.php:11

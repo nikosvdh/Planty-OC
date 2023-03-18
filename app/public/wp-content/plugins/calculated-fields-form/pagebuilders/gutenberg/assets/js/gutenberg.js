@@ -33,7 +33,7 @@ jQuery(function()
 
 					function generate_shortcode()
 					{
-						props.setAttributes({'shortcode' : '[CP_CALCULATED_FIELDS id="'+id+'" '+additional+']'});
+						props.setAttributes({'shortcode' : '[CP_CALCULATED_FIELDS id="'+id+'" '+additional+(iframe ? ' iframe="1"' : '')+']'});
 					};
 
 					function set_attributes(evt)
@@ -41,6 +41,10 @@ jQuery(function()
 						if(evt.target.tagName == 'SELECT') // Form id
 						{
 							id = evt.target.value;
+						}
+						else if(evt.target.tagName == 'INPUT' && evt.target.type == 'checkbox') // iFrame
+						{
+							iframe = evt.target.checked;
 						}
 						else // Additional attributes
 						{
@@ -67,11 +71,17 @@ jQuery(function()
 						return output;
 					};
 
-					function get_addtional_atts()
+					function get_additional_atts()
 					{
 						var output = props.attributes.shortcode;
-						output = output.replace(/^\s*\[\s*CP_CALCULATED_FIELDS\s+id\s*=\s*['"][^'"]*['"]\s*/i, '').replace(/\]\s*$/,'');
+						output = output.replace(/^\s*\[\s*CP_CALCULATED_FIELDS\s+id\s*=\s*['"][^'"]*['"]\s*/i, '').replace(/\]\s*$/,'').replace(/\biframe\s*=\s*"1"/ig, '');
 						return output;
+					};
+
+					function get_iframe()
+					{
+						var output = props.attributes.shortcode;
+						return /\biframe\s*=\s*"1"/i.test(output);
 					};
 
 					function generate_url_params()
@@ -90,7 +100,8 @@ jQuery(function()
 					var focus = props.isSelected,
 						options = [],
 						id = get_id(),
-						additional = get_addtional_atts(),
+						additional = get_additional_atts(),
+						iframe = get_iframe(),
 						children = [];
 
                     if(
@@ -208,7 +219,8 @@ jQuery(function()
 										el(
 											'label',
 											{
-												key : 'cpcff_inspector_attributes_label'
+												key : 'cpcff_inspector_attributes_label',
+												style:{ paddingTop:'20px', display:'block' }
 											},
 											cpcff_gutenberg_editor_config['labels']['attributes']
 										),
@@ -217,7 +229,7 @@ jQuery(function()
 											{
 												type : 'text',
 												key : 'cpcff_inspector_text',
-												value : get_addtional_atts(),
+												value : get_additional_atts(),
 												onChange : set_attributes,
 												style: {width:"100%"}
 											}
@@ -229,6 +241,33 @@ jQuery(function()
 												style:{fontStyle: 'italic'}
 											},
 											'variable_name="value"'
+										),
+										el(
+											'div',
+											{
+												key: 'cpcff_inspector_iframe_container',
+												style:{
+													paddingTop:'20px',
+													display:((cpcff_gutenberg_editor_config.is_admin) ? 'block' : 'none')
+												}
+											},
+											el(
+												'input',
+												{
+													type: 'checkbox',
+													key: 'cpcff_iframe',
+													checked: get_iframe(),
+													onChange: set_attributes
+												}
+											),
+											el(
+												'span',
+												{
+													type: 'checkbox',
+													key: 'cpcff_iframe_label'
+												},
+												cpcff_gutenberg_editor_config['labels']['iframe']
+											)
 										),
 										el(
 											'div',

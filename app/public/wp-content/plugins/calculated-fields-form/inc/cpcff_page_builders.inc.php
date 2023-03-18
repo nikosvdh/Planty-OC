@@ -89,6 +89,7 @@ if ( ! class_exists( 'CPCFF_PAGE_BUILDERS' ) ) {
 					'required_form' => __( 'Select a form', 'calculated-fields-form' ),
 					'forms'         => __( 'Forms', 'calculated-fields-form' ),
 					'attributes'    => __( 'Additional attributes', 'calculated-fields-form' ),
+					'iframe'	    => __( 'Load form into an iframe', 'calculated-fields-form' ),
 					'edit_form'     => __( 'Edit form', 'calculated-fields-form' ),
 				),
 			);

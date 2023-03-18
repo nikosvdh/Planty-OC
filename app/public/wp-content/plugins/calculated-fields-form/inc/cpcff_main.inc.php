@@ -79,6 +79,13 @@ if ( ! class_exists( 'CPCFF_MAIN' ) ) {
 		private $_amp;
 
 		/**
+		 * List of nonces for iframe loaded forms
+		 * Instance property.
+		 *
+		 */
+		private $_iframe_nonces;
+
+		/**
 		 * Constructs a CPCFF_MAIN object, and define the hooks to the filters and actions.
 		 * The constructor is private because this class is a singleton
 		 */
@@ -91,6 +98,9 @@ if ( ! class_exists( 'CPCFF_MAIN' ) ) {
 
 			// Initializes the $_plugin_url property
 			$this->_plugin_url = plugin_dir_url( CP_CALCULATEDFIELDSF_MAIN_FILE_PATH );
+
+			// Initialize $_iframe_nonces
+			$this->_iframe_nonces = array();
 
 			// Plugin activation/deactivation
 			$this->_activate_deactivate();
@@ -533,6 +543,17 @@ if ( ! class_exists( 'CPCFF_MAIN' ) ) {
 				}
 				$atts['id'] = $myrow->id; // If was not passed the form's id, uses the if of first form.
 				$id         = $atts['id']; // Alias for the $atts[ 'id' ] variable.
+
+				if ( ! empty( $atts['iframe'] ) ) {
+					if ( ! isset( $this->_iframe_nonces[ $id ] ) ) {
+						$this->_iframe_nonces[ $id ] = wp_create_nonce( 'cff-iframe-nonce-'.$id );
+					}
+
+					$url = CPCFF_AUXILIARY::site_url( true );
+					$url .= ( strpos( $url, '?' ) === false ? '?' : '&' ) . 'cff-form=' . $id . '&cff-form-target=_top&_nonce=' . $this->_iframe_nonces[ $id ];
+
+					return '<iframe src="' . esc_attr( $url ) . '" style="border:none;width:100%;" onload="this.width=this.contentWindow.document.body.scrollWidth;this.height=this.contentWindow.document.body.scrollHeight+20;"></iframe>';
+				}
 
 				// Initializing the $form_counter
 				if ( ! isset( $GLOBALS['codepeople_form_sequence_number'] ) ) {

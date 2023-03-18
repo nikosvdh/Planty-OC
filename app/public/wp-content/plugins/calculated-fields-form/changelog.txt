@@ -1,5 +1,9 @@
 == Changelog ==
 
+= 1.1.155 =
+
+* Allows to open the forms into iframe tags.
+
 = 1.1.154 =
 
 * Identify equations affected by deleted fields rather than waiting for equations to fail on the public website.

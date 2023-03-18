@@ -4,7 +4,7 @@ Donate link: http://cff.dwbooster.com
 Tags: form,quote form,contact form,form builder,calculator,calculated,quote calculator,forms,form editor,advanced forms,payment calculator,payment,recurring payment,quote,fields,calculated field,price calculator,email,form design,paypal,equation editor,formula,equation,quote calculator,post,posts,plugin,widget,admin,sidebar,images,image,page,shortcode,products form,woocommerce,addons,layout,session,post,cookie,get,webhook,Dropbox,pdf,language
 Requires at least: 3.0.5
 Tested up to: 6.1
-Stable tag: 1.1.154
+Stable tag: 1.1.155
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -979,6 +979,10 @@ A: Please, follow the steps below:
 
 == Changelog ==
 
+= 1.1.155 =
+
+* Allows to open the forms into iframe tags.
+
 = 1.1.154 =
 
 * Identify equations affected by deleted fields rather than waiting for equations to fail on the public website.
@@ -1028,7 +1032,3 @@ A: Please, follow the steps below:
 * Fixes a minor issue with the data-cff-field attribute relationship.
 * Fixes an issue in the CAPTCHA module (Professional, Developer, and Platinum versions).
 * Encloses the shortcode for results and the shortcode for the results list into DIV tags with classes cff-result and cff-results-list, respectively (Professional, Developer, and Platinum versions).
-
-= 1.1.144 =
-
-* Includes a new form template to calculate the maximum area of irregular polygons.

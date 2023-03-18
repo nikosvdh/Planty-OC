@@ -3,7 +3,7 @@
 Plugin Name: Calculated Fields Form
 Plugin URI: https://cff.dwbooster.com
 Description: Create forms with field values calculated based in other form field values.
-Version: 1.1.154
+Version: 1.1.155
 Text Domain: calculated-fields-form
 Author: CodePeople
 Author URI: https://cff.dwbooster.com
@@ -15,7 +15,7 @@ if ( ! defined( 'WP_DEBUG' ) || true != WP_DEBUG ) {
 }
 
 // Defining main constants
-define( 'CP_CALCULATEDFIELDSF_VERSION', '1.1.154' );
+define( 'CP_CALCULATEDFIELDSF_VERSION', '1.1.155' );
 define( 'CP_CALCULATEDFIELDSF_MAIN_FILE_PATH', __FILE__ );
 define( 'CP_CALCULATEDFIELDSF_BASE_PATH', dirname( CP_CALCULATEDFIELDSF_MAIN_FILE_PATH ) );
 define( 'CP_CALCULATEDFIELDSF_BASE_NAME', plugin_basename( CP_CALCULATEDFIELDSF_MAIN_FILE_PATH ) );
@@ -42,9 +42,15 @@ add_action( 'init', 'cp_calculated_fields_form_direct_form_access', 1 );
 // ------------------------------------------
 function cp_calculated_fields_form_direct_form_access() {
 	if (
-		get_option( 'CP_CALCULATEDFIELDSF_DIRECT_FORM_ACCESS', CP_CALCULATEDFIELDSF_DIRECT_FORM_ACCESS ) &&
 		! empty( $_GET['cff-form'] ) &&
-		@intval( $_GET['cff-form'] )
+		@intval( $_GET['cff-form'] ) &&
+		(
+			( get_option( 'CP_CALCULATEDFIELDSF_DIRECT_FORM_ACCESS', CP_CALCULATEDFIELDSF_DIRECT_FORM_ACCESS ) ) ||
+			(
+				! empty( $_GET['_nonce'] ) &&
+				wp_verify_nonce( sanitize_text_field( wp_unslash( $_REQUEST['_nonce'] ) ), 'cff-iframe-nonce-' . intval( $_GET['cff-form'] ) )
+			)
+		)
 	) {
 		$cpcff_main = CPCFF_MAIN::instance();
 		$cpcff_main->form_preview(
