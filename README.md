@@ -1,6 +1,6 @@
 # PLANTY
 
-
+![My Remote Image] (https://drive.google.com/file/d/1UDgvghRPixFOBZXhyIXYaFGvbh613UNq/view?usp=sharing)
 
 ## Projet OpenClassrooms no 6 : Personnalisez un thème WordPress pour une startup avec HTML, CSS et PHP
 
