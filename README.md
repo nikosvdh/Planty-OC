@@ -1,6 +1,6 @@
 # PLANTY
 
-![Image1](app/public/wp-content/uploads/2023/03/Planty6-1-188x300.png)
+![Image1](wp-content/uploads/2023/03/Planty6-1-188x300.png)
 
 ## Projet OpenClassrooms no 6 : Personnalisez un thème WordPress pour une startup avec HTML, CSS et PHP
 
@@ -43,4 +43,4 @@ Les ressources :
 </ul>
 
 ### Le site
-![Image2](/app/public/wp-content/themes/twentytwentyone-child/images/Home_screenshot_Planty.png)
+![Image2](wp-content/themes/twentytwentyone-child/images/Home_screenshot_Planty.png)
